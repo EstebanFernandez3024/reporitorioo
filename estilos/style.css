@@ -127,6 +127,7 @@ margin-left: 47%;
     transition: 1s;
 }
 #articulo1{
+  box-shadow: 0px 0px 30px 2px rgb(255, 255, 255);
   margin-top: 30%;
 background-color:#131312;
 font-size: 25px;
@@ -137,7 +138,6 @@ padding-bottom: 0;
 margin-bottom: 2cm;
 opacity: 0.9;
 
-
 }
 .arti{
   display: flex;
@@ -145,7 +145,7 @@ opacity: 0.9;
 }
 
 #texto1{
-padding-top: 5%;
+
   width: 60%;
 }
 #img1{
@@ -174,7 +174,7 @@ h2{
  }
 @media (max-width: 1000px){
   .imgesteban{
-   height: 100%;
+   height: 20%;
    width: 120%;
   }
 
@@ -189,6 +189,7 @@ h2{
   }
   #img1{
     width: 80%;
+    padding: 20px;
   }
 }
 
@@ -234,7 +235,7 @@ margin-left: 10px;
 }
 #articulo2{
   margin-top: 2cm;
-  margin-bottom: 20%;
+  margin-bottom: 2cm;
   background-color: #131312;
   opacity: 0.9;
 }
@@ -345,4 +346,46 @@ margin: 0;
   color: white;
   background-color: #131312;
   opacity: 0.9;
+}
+
+/*redes sociales*/
+#mail{
+  display: none;
+  background-color: none;
+  text-align: center;
+  margin-top: 10px;
+}
+#gmail{
+  background: none;
+}
+#equis{
+  background: none;
+}
+.redessociales{
+  background-color: #fff;
+  text-align: center;
+  width: 4cm;
+  border-radius: 60px;
+}
+
+
+#articulo3{
+  color: #fff;
+  margin-top: 2cm;
+  background-color: #131312;
+  padding: 1cm;
+  text-align: center;
+  display: flex;
+  font-family: Bebas Neue;
+}
+#imgcv{
+  background: none;
+}
+h4{
+  border-bottom: 1px solid white;
+  padding-bottom: 2px;
+
+}
+.infocv{
+  text-align: start;
 }
