@@ -195,7 +195,7 @@ h2{
 
 @media (max-width: 650px){
   body{
-    background-image: url(/imagenes/background-texture-1382002.jpg);
+    background-color: aliceblue;
   }
 }
 
@@ -371,7 +371,7 @@ margin: 0;
 
 
 #articulo3{
-
+width: 100%;
   color: #fff;
   margin-top: 2cm;
   background-color: #131312;
