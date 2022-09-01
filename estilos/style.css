@@ -234,10 +234,11 @@ border-radius: 1cm;
 margin-left: 10px;
 }
 #articulo2{
+  box-shadow: 0px 0px 30px 2px rgb(255, 255, 255);
   margin-top: 2cm;
   margin-bottom: 2cm;
   background-color: #131312;
-  opacity: 0.9;
+
 }
  #gitp{
   color: #fff;
@@ -370,6 +371,7 @@ margin: 0;
 
 
 #articulo3{
+
   color: #fff;
   margin-top: 2cm;
   background-color: #131312;
@@ -377,6 +379,8 @@ margin: 0;
   text-align: center;
   display: flex;
   font-family: Bebas Neue;
+  font-size: 19px;
+ border-bottom: 2px solid white;
 }
 #imgcv{
   background: none;
@@ -388,4 +392,62 @@ h4{
 }
 .infocv{
   text-align: start;
+}
+.certificados{
+  text-decoration: none;
+  background-color: rgb(0, 255, 0);
+  color: #121312;
+  border: 2px solid rgb(0, 255, 21);
+  padding: 0;
+  font-size: 10px;
+
+}
+
+.certificados:hover{
+
+  color: rgb(63, 122, 31);
+}
+.descargar{
+  background-color: #fff;
+  border: 2px solid #131312;
+padding: 0%;
+padding: 10px;
+  text-decoration: none;
+  
+}
+.descargas{
+  margin-top: 20%;
+  display: flex; 
+  justify-content: center;
+}
+.prueba:hover{
+  transform: scale(0.9);
+}
+.prueba{
+  margin-right: 10px;
+}
+#imgdescargar{
+  background-color: greenyellow;
+  color: #121312;
+}
+@media(max-width: 1331px){
+  .descargar{
+    display: block;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 1000px){
+  #articulo3{
+    display: block;
+  }
+}
+footer{
+  text-align: center;
+  
+  justify-content: center;
+  background-color: #121312;
+  color: #fff;
+  margin-bottom: 0;
+  height: 4cm;
+  padding: 20px;
 }
